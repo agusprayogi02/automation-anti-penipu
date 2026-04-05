@@ -1,0 +1,12 @@
+{
+  "name": "antipenipuan-form-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:form-once": "node scripts/form-flow-once.mjs"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.49.0"
+  }
+}
