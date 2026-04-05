@@ -144,7 +144,7 @@ async function cobaLogin() {
 }
 
 async function main() {
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 100_000; i++) {
     await cobaLogin();
   }
   console.log("10 runs finished.");
