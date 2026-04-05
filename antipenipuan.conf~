@@ -22,10 +22,10 @@ stopwaitsecs=120
 stopsignal=TERM
 stopasgroup=true
 killasgroup=true
-stdout_logfile=/tmp/antipenipuan-stdout.log
+stdout_logfile=/tmp/logs/antipenipuan-stdout.log
 stdout_logfile_maxbytes=10MB
 stdout_logfile_backups=5
-stderr_logfile=/tmp/antipenipuan-stderr.log
+stderr_logfile=/tmp/logs/antipenipuan-stderr.log
 stderr_logfile_maxbytes=10MB
 stderr_logfile_backups=5
 ; Jika perlu override tanpa .env (opsional, hapus titik koma depannya):
